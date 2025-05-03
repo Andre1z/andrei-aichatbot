@@ -1,6 +1,7 @@
 <?php
 session_start();
-$conn = new mysqli("localhost", "chatbot", "Labapiciorului.1", "chatbot");
+//Conexion a la base de datos
+$conn = new mysqli("", "", "", "");
 
 $nombre_usuario = $_POST['nombre_usuario'];
 $contrasena = $_POST['contrasena'];
